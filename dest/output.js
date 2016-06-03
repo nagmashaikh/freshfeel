@@ -4912,16 +4912,16 @@ app.config(function ($stateProvider, $urlRouterProvider) {
     $stateProvider
             .state('login', {
                 url: "/login",
-                templateUrl: "templates/login.html"
+                templateUrl: "/templates/login.html"
             })
             .state('signup', {
                 url: "/signup",
-                templateUrl: "templates/signup.html",
+                templateUrl: "/templates/signup.html",
                 controller:"signupCtrl"
             })
             .state('home', {
                 url: "/home",
-                templateUrl: "templates/home.html",
+                templateUrl: "/templates/home.html",
                 controller:"signupCtrl"
             })
             .state('search', {
@@ -4936,7 +4936,7 @@ app.config(function ($stateProvider, $urlRouterProvider) {
             })
             .state('contact', {
                 url: "/contact",
-                templateUrl: "templates/contactus.html",
+                templateUrl: "/templates/contactus.html",
                 controller:"signupCtrl"
             });
 });
