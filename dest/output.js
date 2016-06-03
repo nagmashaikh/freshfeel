@@ -4906,7 +4906,7 @@ var app = angular.module("myApp", ['ui.router']);
 app.config(function ($stateProvider, $urlRouterProvider) {
     //
     // For any unmatched url, redirect to /state1
-    $urlRouterProvider.otherwise("/login");
+    $urlRouterProvider.otherwise("/home");
     //
     // Now set up the states
     $stateProvider
@@ -4926,12 +4926,12 @@ app.config(function ($stateProvider, $urlRouterProvider) {
             })
             .state('search', {
                 url: "/search",
-                templateUrl: "templates/search.html",
+                templateUrl: "/templates/search.html",
                 controller:"searchCtrl"
             })
             .state('aboutus', {
                 url: "/aboutus",
-                templateUrl: "templates/aboutus.html",
+                templateUrl: "/templates/aboutus.html",
                 controller:"signupCtrl"
             })
             .state('contact', {
