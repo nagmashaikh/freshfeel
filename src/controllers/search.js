@@ -1,0 +1,50 @@
+/* 
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+app.controller("searchCtrl",['$scope',function($scope){
+        $scope.juice=[
+            {
+             id:'1',
+             type:'shake',
+             name:'apple',
+             content:
+                     {
+                         apple:'90%',sugar:'1%',milk:'9%'
+                     },
+             price:'30'
+            },
+            {
+                id:'2',
+                type:'shake',
+                name:'orange',
+                content:
+                        {
+                            orange:'80%',sugar:'20',milk:'0%'
+                        },
+                price:'20'
+            },
+            {
+                id:'3',
+                type:'shake',
+                name:'pineapple',
+                content:
+                        {
+                            pineapple:'60%',sugar:'30%',milk:'10%'
+                        },
+                price:'25'
+            },
+            {
+                id:'4',
+                type:'shake',
+                name:'mango',
+                content:
+                        {
+                           mango:'70%',sugar:'1%',milk:'29%'
+                        },
+        price:'20'
+           }
+        ];
+}]);
+
